@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloomify | Flowers for Every Moment</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="#home">Bloom<span>ify</span><small>FLOWERS & GIFTS</small></a>
+  <nav>
+    <a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">Our Story</a>
+    <a href="#services">Services</a><a href="#contact">Contact</a>
+  </nav>
+  <button id="cartBtn" class="cart-btn">🛍 <span id="cartCount">0</span></button>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">FRESH FLOWERS · BEAUTIFUL MOMENTS</p>
+    <h1>Let your feelings <em>bloom.</em></h1>
+    <p>Handcrafted bouquets, thoughtful gifts and fresh flowers delivered with love.</p>
+    <div class="hero-actions"><a href="#shop" class="btn primary">Shop Flowers</a><a href="#about" class="btn text">Our Story →</a></div>
+    <div class="trust"><span>✿</span> Freshly arranged <span>✿</span> Same-day delivery <span>✿</span> Made with love</div>
+  </div>
+  <div class="hero-art">
+    <div class="circle c1"></div><div class="circle c2"></div>
+    <div class="bouquet">💐</div>
+    <div class="floating-card"><b>Today's favourite</b><span>Blush Garden Bouquet</span><strong>₹1,499</strong></div>
+  </div>
+</section>
+
+<section id="shop" class="section">
+  <div class="section-head"><div><p class="eyebrow">OUR COLLECTION</p><h2>Flowers for every feeling</h2></div>
+  <div class="filters"><button class="filter active" data-cat="all">All</button><button class="filter" data-cat="romantic">Romantic</button><button class="filter" data-cat="birthday">Birthday</button><button class="filter" data-cat="gift">Gifts</button></div></div>
+  <div id="products" class="products"></div>
+</section>
+
+<section id="about" class="story">
+  <div class="story-visual"><div>🌷</div><span>Since 2018</span></div>
+  <div><p class="eyebrow">OUR STORY</p><h2>Flowers are our way of saying what words cannot.</h2>
+  <p>Bloomify began with one simple idea: make beautiful flowers feel personal. Every arrangement is hand-tied by our florists using fresh seasonal blooms.</p>
+  <div class="story-points"><span>✓ Carefully selected blooms</span><span>✓ Handcrafted every day</span><span>✓ Personal message cards</span></div></div>
+</section>
+
+<section id="services" class="section services">
+  <div class="section-head"><div><p class="eyebrow">WHY BLOOMIFY</p><h2>A little extra love, included.</h2></div></div>
+  <div class="service-grid">
+    <article><b>🌿</b><h3>Fresh Every Day</h3><p>We source fresh flowers and arrange each bouquet to order.</p></article>
+    <article><b>🚚</b><h3>Same-Day Delivery</h3><p>Order before 2 PM for same-day delivery in our service area.</p></article>
+    <article><b>💌</b><h3>Personal Notes</h3><p>Add a heartfelt message to make your gift truly yours.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div><p class="eyebrow">SAY HELLO</p><h2>Have something special in mind?</h2><p>Tell us what you're looking for and we'll help you create it.</p></div>
+  <form id="contactForm">
+    <input id="name" required placeholder="Your name">
+    <input id="email" type="email" required placeholder="Email address">
+    <textarea id="message" rows="4" required placeholder="Tell us what you need..."></textarea>
+    <button class="btn primary" type="submit">Send Enquiry</button>
+    <p id="formStatus"></p>
+  </form>
+</section>
+</main>
+
+<div id="cartPanel" class="cart-panel">
+  <div class="cart-head"><h2>Your bouquet bag</h2><button id="closeCart">✕</button></div>
+  <div id="cartItems"></div>
+  <div class="cart-total"><span>Total</span><strong id="cartTotal">₹0</strong></div>
+  <button id="checkout" class="btn primary full">Place Order</button>
+</div>
+<div id="overlay"></div>
+<footer><p>Bloomify · Flowers & Gifts · Web Technology Project</p></footer>
+<script src="js/app.js"></script>
+</body>
+</html>

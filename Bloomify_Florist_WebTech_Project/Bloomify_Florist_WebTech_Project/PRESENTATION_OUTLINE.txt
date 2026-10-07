@@ -1,0 +1,80 @@
+BLOOMIFY — POWERPOINT CONTENT
+
+LWP REVIEW 01 — STATIC WEBSITE
+
+Slide 1 — Title
+Bloomify – Online Florist Shop
+Web Technology Project
+Name / Register Number / Department / College
+
+Slide 2 — Problem Statement
+Customers need a simple way to browse flowers, choose gifts and send enquiries.
+Bloomify provides an attractive digital storefront.
+
+Slide 3 — Objectives
+- Create a responsive florist website
+- Display flower collections
+- Provide category filtering
+- Implement shopping-cart interaction
+- Validate contact forms using JavaScript
+
+Slide 4 — Technologies
+HTML5, CSS3, JavaScript
+
+Slide 5 — Modules
+Home, Flower Collection, Our Story, Services, Cart, Contact
+
+Slide 6 — JavaScript Features
+- Product filtering
+- Add to cart
+- Remove from cart
+- Dynamic total calculation
+- Form validation
+
+Slide 7 — Screenshots
+Add screenshots of home page, products and shopping cart.
+
+Slide 8 — Conclusion
+Bloomify provides a responsive and interactive client-side florist experience.
+
+LWP REVIEW 02 — DYNAMIC WEBSITE
+
+Slide 1 — Title
+Bloomify – Dynamic Florist Shop
+PHP + MySQL
+
+Slide 2 — Stage 1 to Stage 2
+Static product data is replaced by database-driven product data.
+Orders and enquiries are stored permanently.
+
+Slide 3 — Architecture
+Browser → PHP → MySQL
+
+Slide 4 — Database Tables
+flowers
+orders
+messages
+
+Slide 5 — Dynamic Features
+- Products loaded from MySQL
+- Place order form
+- Save orders
+- Save contact enquiries
+- Prepared statements
+
+Slide 6 — SQL Operations
+SELECT products
+INSERT orders
+INSERT messages
+
+Slide 7 — Screenshots
+Add screenshots of phpMyAdmin and dynamic website.
+
+Slide 8 — Testing
+Test product loading, valid/invalid email, order submission and database records.
+
+Slide 9 — Future Enhancements
+Login, payment gateway, admin panel, delivery tracking, stock management.
+
+Slide 10 — Conclusion
+Bloomify evolves from an interactive static website into a functional PHP/MySQL florist store.
